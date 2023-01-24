@@ -1,0 +1,12 @@
+<div class="task-list-container">
+    <div class="form-container">
+        <label for="taskInp">My Task :</label>
+        <input id= "taskInp" type="text" #newTask>
+        <label for="taskDesc">description :</label>
+        <textarea name="description" id="taskDesc" cols="30" rows="10" #newTaskDesc></textarea>
+        <button (click) = "addNewTasks(newTask.value, newTaskDesc.value)">add Task</button>
+    </div>
+    <div class="tasks-container">
+        <app-task *ngFor="let task of taskList" [task]="task"></app-task>
+    </div>
+</div>

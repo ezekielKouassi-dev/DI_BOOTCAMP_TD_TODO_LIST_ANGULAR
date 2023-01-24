@@ -1,0 +1,19 @@
+.header {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    a {
+        margin: 0px 30px;
+        text-decoration: none;
+        color: black;
+        &:hover {
+            text-decoration: underline;
+            color: red;
+        }
+    }
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}

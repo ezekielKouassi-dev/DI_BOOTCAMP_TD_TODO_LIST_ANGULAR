@@ -1,0 +1,17 @@
+.task-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    width: 50%;
+    p{
+        a {
+            font-weight: bold;
+        };
+    }
+}
